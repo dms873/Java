@@ -1,3 +1,4 @@
+package example.variable;
 
 public class Hello {
 
