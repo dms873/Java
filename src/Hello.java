@@ -15,6 +15,7 @@ public class Hello {
 		// ctrl+/ 주석(토글)
 		// ctrl+space 자동완성
 		
+		System.out.println("git practice");
 	}
 
 }
