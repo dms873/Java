@@ -6,7 +6,12 @@ public class Run {
 		// TODO Auto-generated method stub
 		Variable var = new Variable();
 		// var.initVariable();
-		var.changeValue();
+		// var.changeValue();
+		// var.testFinal();
+		// var.testOverflow();
+		// var.testCasting();
+		// var.testCasting2();
+		var.testDataLoss();
 	}
-
+	
 }
