@@ -192,4 +192,5 @@ public class Variable {
 		byte bnum = (byte)num;
 		System.out.println("bnum : " + bnum);
 	}
+	
 }

@@ -11,7 +11,7 @@ public class Run {
 		// var.testOverflow();
 		// var.testCasting();
 		// var.testCasting2();
-		var.testDataLoss();
+		// var.testDataLoss();
 	}
 	
 }
