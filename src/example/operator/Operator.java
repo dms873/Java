@@ -74,4 +74,5 @@ public class Operator {
 		String result = num > 0 ? "양수다" : num == 0? "0이다" : "음수다";
 		System.out.println(result);
 	}
+	
 }
