@@ -56,4 +56,5 @@ public class RepetitivePractice {
 			System.out.println();
 		}
 	}
+
 }
