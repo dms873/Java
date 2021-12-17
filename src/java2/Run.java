@@ -21,9 +21,14 @@ public class Run {
 		//				"Æê ³ªÀÌ : " + p3.getPetAge());	
 		//	}
 
-		Coffee c = new Coffee();
-		c.getAmericano();
+//		Coffee c = new Coffee();
+//		c.getAmericano();
 //		CoffeeMachine cm = new CoffeeMachine();
-
+		ImportExam ie = new ImportExam();
+		System.out.println(ie.piExam());
+		
+		System.out.println(ie.radomExam(10));
+		
+		System.out.println(ie.sortExam());
 	}
 }
