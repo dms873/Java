@@ -35,8 +35,12 @@ public class Run {
 		System.out.println("Short: " + BasicVariable.sh);
 		System.out.println("String: " + BasicVariable.str);
 		
+		System.out.println("===================");
 		
-		
-		
+		ThisConstructor ts = new ThisConstructor("객체", 1000, 1);
+		System.out.println("책이름 : " + ts.getBookName()
+					+ "책 가격 : " + ts.getBookPrice()
+					+ "출판사 : " + ts.getBookpublisher()
+					+ "책 아이디 : " + ts.getBookId());
 	}
 }
