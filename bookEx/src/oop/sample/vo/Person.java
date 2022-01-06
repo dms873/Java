@@ -15,4 +15,8 @@ public class Person {
 	public void display() {
 		System.out.println(name + ", " + age + "세, " + gender + "자");
 	}
+	
+	public void display(int[] arr) {
+		System.out.println(name + ", " + age + "세, " + gender + "자");
+	}
 }
