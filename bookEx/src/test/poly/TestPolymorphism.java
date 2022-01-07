@@ -5,6 +5,19 @@ import poly.sample.Parent4;
 
 public class TestPolymorphism {
 	public static void main(String[] args) {
+		// 변수
+		int a = 30;
+		int b = 50;
+		int result = a + b;
+		System.out.println(result);
+		
+		// 한 번만 사용할 거면 굳이 15-16 코드 처럼 변수 사용해서 2줄인데, 아래 코드는 1줄로 작성 가능하다.
+//		Parent4 p1 = new Parent4();
+//		p1.display();
+		new Parent4().display();
+		
+		
+		
 		Child4 c = new Child4();
 		c.display(); // "상속받아 재정의한 메소드"
 		c.out(); // 0인데 Child4 기본생성자에 num = x;를 넣어주면 100의 값을 가져올 수 있다.
