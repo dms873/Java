@@ -3,7 +3,7 @@ package com.kh.practice.snack.controller;
 import com.kh.practice.snack.model.vo.Snack;
 
 public class SnackController {
-	Snack s = new Snack();
+	private Snack s = new Snack(); 
 	public SnackController() {
 		
 	}
@@ -21,6 +21,5 @@ public class SnackController {
 	
 	public String confirmData() {
 		return s.getKind() + "(" + s.getName() + " - "  +  s.getFlavor() + ") " + s.getNumOf() + "개 " + s.getPrice() + "원";
-		
 	}
 }
