@@ -10,7 +10,7 @@ public class SnackMenu {
 	private SnackController scr = new SnackController();
 	Snack s = new Snack();
 
-	public void menu() {
+	public void menu() {		
 		System.out.println("스낵류를 입력하세요.");
 		System.out.print("종류 : ");
 		String kind = sc.nextLine();
@@ -37,7 +37,7 @@ public class SnackMenu {
 			return;
 		}
 		
-		
+		sc.close();
 		
 	}
 }
