@@ -65,14 +65,14 @@ public class BoardListController extends HttpServlet {
 		}
 		
 //		ArrayList<BoardVo> volist = service.listBoard();
-		ArrayList<BoardVo> volist = service.listBoard(startRnum, endRnum);
+		ArrayList<BoardVo> volist = new BoardService().listBoard(startRnum, endRnum);
 		System.out.println(volist);
 		
 		request.setAttribute("boardVolist", volist);
 		request.getRequestDispatcher("WEB-INF/view/board/boardlist.jsp").forward(request, response);
 	}
 	public int countBoardList() {		
-		int result = service.countBoardList();
+		int result = new BoardService().countBoardList();
 		return result;
 	}
 	/**

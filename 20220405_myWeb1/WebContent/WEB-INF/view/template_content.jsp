@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template Content 1</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <!-- 경로 중요 !!!jsp파일위치아님!!! - 이 jsp파일을 dispatcher한 서블릿url이 기준 -->
     <link rel="stylesheet" href="./resources/css/reset.css">
     <style>
@@ -178,7 +179,7 @@
             display: none;
         }
     </style>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    
     <script>
         window.onload = pageLoadedHandler;
         // $(pageLoadedHandler);
